@@ -1,0 +1,36 @@
+h1 {
+  text-align: center;
+  color: red;
+  font-size: 50px;
+}
+#firstpicture {
+  border-radius: 50%;
+  width: 400px;
+  height: 400px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+figure {
+  border: thin #c0c0c0 solid;
+  display: flex;
+  flex-flow: column;
+  padding: 5px;
+  max-width: 220px;
+  margin: auto;
+}
+figcaption {
+  background-color: #222;
+  color: #fff;
+  font: italic smaller sans-serif;
+  padding: 3px;
+  text-align: center;
+}
+p {
+  font-style: normal;
+  color: rgb(0, 8, 255);
+  background-color: lightgrey;
+  size: 100;
+  font-family: "Lucida Handwriting", "Cursive";
+  line-height: 2;
+}
