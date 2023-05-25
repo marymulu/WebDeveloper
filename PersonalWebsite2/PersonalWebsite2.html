@@ -12,39 +12,36 @@
       <ul>
         <li><a href="#aboutme">About me</a></li>
         <li><a href="#myhobbies">My Hobbies</a></li>
-        <li><a href="#personalinformation">Personal Information</a></li>
         <li><a href="#contactme">Contact Me</a></li>
       </ul>
     </nav>
     </body>
     <div id="aboutme">
       <h1>Mary Lautz</h1>
-      <br>
       <img
-        src="./mypicture.jpg"
+        src="mypicture.jpg"
         alt="Picture of Myself"
         height="200"
         width="200"
       />
-      <br>
+    <section>
       <a
         href="https://github.com/su-w3-bootcamp/software-1.2-html-elements/blob/main/assignment.md"
         >Github URL</a
       >
+    </section>
+    <figure>
+      <img
+        src="ethiopia_flag.jpeg"
+        alt="Ethiopian Flag"
+        height="300"
+        width="300"
+      />
+      <figcaption>Ethiopian Flag</figcaption>
+    </figure>
+    <br>
       <p>
-        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aliquam sed at
-        ab magni repellendus quae eaque libero vel? Voluptatum dolore et rerum
-        optio nostrum assumenda consequuntur magni, id modi debitis?Lorem ipsum
-        dolor sit amet, consectetur adipisicing elit. Nulla iure ratione eum!
-        Quibusdam minus, quidem eum aliquid molestias, aliquam nobis beatae, quo
-        reprehenderit voluptates at tempora ut rem commodi veniam?Lorem ipsum
-        dolor sit amet consectetur adipisicing elit. Tempora vel est,
-        praesentium magni nemo distinctio itaque ipsam cum recusandae vero harum
-        odio quidem reiciendis eius repellat deserunt. Totam, at e. Lorem ipsum
-        dolor sit amet consectetur adipisicing elit. Laudantium aspernatur quis
-        nihil harum voluptatem reprehenderit, perspiciatis hic quam illum nemo
-        pariatur voluptatum eos assumenda expedita delectus, quidem iure omnis
-        inventore.
+        My name is Mulu (Mary) Lautz and I am a 25 year old female. My birthdy is March 25 1998. I am born in Ethiopia but I was raised in Wisconsin. I've been in the United States since I've been 5 years old. I currently reside in Virginia.
       </p>
     </div>
 
@@ -55,6 +52,26 @@
         <li>Volleyball</li>
         <li>Basketball</li>
       </ul>
+    </div>
+    <div id="contactme">
+      <form>
+        <label for="name">Name:</label>
+        <input type="text" name="fname" placeholder="Enter Name" />
+        <br />
+        <label for="email">Email:</label>
+        <input type="email" name="email" placeholder="Email" />
+        <br />
+        <label for="textarea">Comment:</label>
+        <textarea
+          name="text"
+          id="textarea"
+          placeholder="Please leave a comment"
+          rows="4"
+          cols="50"
+        ></textarea>
+        <br />
+        <input type="submit" />
+      </form>
     </div>
   </body>
 </html>
