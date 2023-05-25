@@ -3,7 +3,8 @@ h1 {
   color: red;
   font-size: 50px;
 }
-#firstpicture {
+
+#mypicture {
   border-radius: 50%;
   width: 400px;
   height: 400px;
@@ -11,13 +12,11 @@ h1 {
   margin-right: auto;
   display: block;
 }
+/* #flag {
+  width: 250px;
+}
 figure {
-  border: thin #c0c0c0 solid;
-  display: flex;
-  flex-flow: column;
-  padding: 5px;
-  max-width: 220px;
-  margin: auto;
+  width: 250px;
 }
 figcaption {
   background-color: #222;
@@ -25,12 +24,25 @@ figcaption {
   font: italic smaller sans-serif;
   padding: 3px;
   text-align: center;
+  font-size: 18px;
+  font-weight: bold;
+} */
+#flag {
+  width: 250px;
 }
-p {
-  font-style: normal;
-  color: rgb(0, 8, 255);
-  background-color: lightgrey;
-  size: 100;
-  font-family: "Lucida Handwriting", "Cursive";
+figure {
+  display: inline-block;
+  position: relative;
+  width: auto;
+}
+
+figcaption {
+  width: 100%;
+}
+body {
+  font-family: "Times New Roman", Times, serif;
   line-height: 2;
+  color: rgb(0, 8, 255);
+  font-size: medium;
+  background-color: lightgrey;
 }
