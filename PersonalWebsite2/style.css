@@ -13,20 +13,20 @@ h1 {
   display: block;
 }
 /* #flag {
-  width: 250px;
-}
-figure {
-  width: 250px;
-}
-figcaption {
-  background-color: #222;
-  color: #fff;
-  font: italic smaller sans-serif;
-  padding: 3px;
-  text-align: center;
-  font-size: 18px;
-  font-weight: bold;
-} */
+    width: 250px;
+  }
+  figure {
+    width: 250px;
+  }
+  figcaption {
+    background-color: #222;
+    color: #fff;
+    font: italic smaller sans-serif;
+    padding: 3px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+  } */
 #flag {
   width: 250px;
 }
