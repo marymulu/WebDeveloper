@@ -20,7 +20,7 @@ function calculateAverage(array) {
   return total / count;
 }
 let average = calculateAverage(arry);
-console.log(average); //output:72
+console.log(average);
 
 //2. Change the value of studentLastName to "Newman"
 studentLastName = "Newman";
