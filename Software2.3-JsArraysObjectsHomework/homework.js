@@ -38,7 +38,7 @@ function calculateAverage(array) {
   return total / count;
 }
 let average = calculateAverage(arry);
-console.log(average);
+console.log(average); //output: 70.5
 
 
 
@@ -50,11 +50,19 @@ console.log(average);
 //     b. number of wheels (Number)
 //     e. isEnvironmentFriendly (Boolean)
 // Feel free to put any value.
-
+let vehicle = {
+  name : "The M8 Coupe", //string
+  brand: "BMW", //string
+  yearOfMake: 2024, //Number
+  numberOfWheels: 4, //Number
+  isEnvironmentFriendly: true, //Boolean
+};
+console.log(vehicle)
 
 
 
 // 2. Use the for-in loop to display both the properties and values of the object.
 
-
-
+for (let key in vehicle) {
+  console.log(key + ": " + vehicle[key]);
+}
