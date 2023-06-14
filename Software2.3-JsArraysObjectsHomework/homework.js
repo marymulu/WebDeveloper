@@ -14,7 +14,7 @@ console.log(grades)
 // 3. Remove the 1st element of the array
 
 
-grades.splice(0,1);
+grades.shift();
 console.log(grades)
 
 // 4. Change 40 to 60.
@@ -24,22 +24,16 @@ console.log(grades)
 
 // 5. Create a variable called average and compute for the average of the grades array.
 //     Tip: you can create another variable as a placeholder for the sum first.
-arry = [56,87,99,40];
 
-function calculateAverage(array) {
-  let total = 0;
-  let count = 0;
 
-  array.forEach(function (item, index) {
-    total += item;
-    count++;
-  });
+let sum = 0;
 
-  return total / count;
+for (let i = 0; i < grades.length; i++) {
+  sum += grades[i];
 }
-let average = calculateAverage(arry);
-console.log(average); //output: 70.5
 
+let average = sum / grades.length;
+console.log(average);
 
 
 // Q2:
