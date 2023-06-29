@@ -111,7 +111,7 @@ switch (password) {
 }
 //USING A FUNCTION
 function greet (firstName) {
-    console.log(`Hello ${firstName}`)
+    return (`Hello ${firstName}`)
 }
  greet ("William")
 ---------------------------------------
